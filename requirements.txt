@@ -1,0 +1,8 @@
+elasticsearch==6.4.0
+bs4==0.0.1
+django==2.2.2
+snownlp==0.12.3
+requests==2.18.4
+jieba==0.39
+pyspark==2.4.3
+spacy==2.1.6
