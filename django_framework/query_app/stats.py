@@ -34,7 +34,7 @@ def word_count(sc, input):
 def __main__():
     conf = SparkConf().setAppName("Word Count")
     sc = SparkContext.getOrCreate(conf=conf)
-    filename = "/Users/clarence/Documents/data-ingestion/django_framework/query_app/all_emails.txt"
+    filename = "/Users/clarence/Documents/communication_platform/django_framework/query_app/all_emails.txt"
     output_file = "chinese_tokens.txt"
     segment(filename, output_file)
     counts = word_count(sc, output_file)
