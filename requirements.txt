@@ -4,5 +4,5 @@ django==2.2.2
 snownlp==0.12.3
 requests==2.20.0
 jieba==0.39
-pyspark==2.4.3
+pyspark==3.2.2
 spacy==2.1.6
